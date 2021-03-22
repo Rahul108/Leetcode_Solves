@@ -18,7 +18,6 @@ def longestPalindrome(s):
                 center = i
 
             if P[i] > max_len:
-                print('max_len before: ', max_len)
                 max_len = P[i]
                 index = i
 
@@ -27,5 +26,3 @@ def longestPalindrome(s):
         word = "".join(word_arr)
 
         return word
-
-print(longestPalindrome('aaaaddddd'))
